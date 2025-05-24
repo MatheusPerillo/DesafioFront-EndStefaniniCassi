@@ -92,7 +92,7 @@ export default function RespostaNip() {
           variant="outline"
           className="px-4"
           onClick={() => handleResposta("naoReconhecida")}
-          style={{ backgroundColor: "white", borderColor: "#003057" }}
+          style={{ backgroundColor: "white", borderColor: "#003057", color: "#003057" }}
         >
           {etapa === "nip" ? "Não reconheço" : "Não"}
         </Button>
