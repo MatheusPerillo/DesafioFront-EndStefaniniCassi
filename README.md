@@ -30,7 +30,7 @@ cd desafio-frontend-stefanini/
 npm install
 ```
 
-### 3. Rode o projeto
+### 4. Rode o projeto
 
 ```bash
 npm run dev
