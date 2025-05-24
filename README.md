@@ -10,6 +10,13 @@
 
 ### O projeto é totalmente responsivo e como não foi prototipado a versão mobile, tomei a liberdade para imaginar e criar a versão mobile do projeto.
 
+## 🔗 Link do Projeto Hospedado
+
+Acesse o projeto online clicando no link abaixo:
+
+👉 [Ver Projeto na Vercel](https://desafio-front-end-stefanini-cassi.vercel.app/)
+
+
 ## Como rodar o projeto
 
 ### 1. Clone o repositório
