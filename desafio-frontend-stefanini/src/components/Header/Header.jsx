@@ -48,7 +48,7 @@ export default function Header() {
           {/* Redes sociais */}
           <div className="d-none d-md-flex align-items-center gap-2">
             <small className="me-1 hide-on-1250">Siga a CASSI nas redes sociais:</small>
-            <div className="d-flex align-items-center" style={{ gap: 24 }}>
+            <div className="d-flex align-items-center" style={{ gap: 24, marginLeft: 24 }}>
               <BsFacebook size={24} color="#002D4B" />
               <BsLinkedin size={24} color="#002D4B" />
               <BsInstagram size={24} color="#002D4B" />
