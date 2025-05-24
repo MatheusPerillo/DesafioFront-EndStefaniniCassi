@@ -1,7 +1,7 @@
 /* eslint-disable no-unused-vars */
 import { useState } from "react";
 import { Alert, Button } from "react-bootstrap";
-import { BsCheckCircle, BsCheckCircleFill } from "react-icons/bs";
+import { BsCheckCircle, BsCheckCircleFill, BsExclamationCircle } from "react-icons/bs";
 import ModalConfirmacaoContato from "../ModalAutenticacao/ModalConfirmacaoContato";
 
 export default function RespostaNip() {
@@ -54,7 +54,8 @@ export default function RespostaNip() {
       <>
         <Alert variant="danger" className="mt-3">
           <small>
-            ⚠️ Interlocutor <strong>RECONHECIDO</strong> e abertura da NIP <strong>NÃO RECONHECIDA</strong> pelo usuário.
+            <BsExclamationCircle className="me-2 text-danger" />
+            Interlocutor <strong>RECONHECIDO</strong> e abertura da NIP <strong>NÃO RECONHECIDA</strong> pelo usuário.
           </small>
         </Alert>
         <div className="d-flex align-items-center gap-2 mt-3 mb-5 border-top pt-3">
@@ -70,7 +71,8 @@ export default function RespostaNip() {
       <>
         <Alert variant="danger" className="mt-3">
           <small>
-            ⚠️ Interlocutor <strong>NÃO RECONHECIDO</strong> e abertura da NIP <strong>NÃO RECONHECIDA</strong> pelo usuário.
+            <BsExclamationCircle className="me-2 text-danger" />
+            Interlocutor <strong>NÃO RECONHECIDO</strong> e abertura da NIP <strong>NÃO RECONHECIDA</strong> pelo usuário.
           </small>
         </Alert>
         <div className="d-flex align-items-center gap-2 mt-3 mb-5 border-top pt-3">
