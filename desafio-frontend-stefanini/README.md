@@ -1,6 +1,6 @@
-# 💻 Projeto Front-End CASSI - Confirmação de Solicitação
+# Projeto Front-End CASSI - Confirmação de Solicitação de NIP
 
-## 🚀 Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 - [React]()
 - [React-Bootstrap]()
@@ -8,7 +8,7 @@
 
 ---
 
-## 📦 Como rodar o projeto
+## Como rodar o projeto
 
 ### 1. Clone o repositório
 
@@ -22,7 +22,7 @@ git clone https://github.com/seu-usuario/meu-projeto-cassi.git
 npm install
 ```
 
-### 1. Rode o projeto
+### 3. Rode o projeto
 
 ```bash
 npm run dev
