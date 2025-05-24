@@ -73,3 +73,29 @@ p{
   }
 }
 
+@media (max-width: 767px) {
+  .texto-informativo {
+    font-size: 18px !important;
+    text-align: justify;
+  }
+
+  .texto-informativo h5 {
+    font-size: 20px;
+  }
+
+  .imagem-informativa {
+    width: 100% !important;
+    height: auto !important;
+  }
+
+  .bloco-informativo {
+    width: 100% !important;
+  }
+}
+
+@media (max-width: 767px) {
+  .btns-responsivos {
+    margin-bottom: 0rem !important; /* reduz de mb-5 (3rem) para mb-3 (1rem) */
+  }
+}
+

@@ -87,7 +87,7 @@ export default function RespostaNip() {
       <p className="text-gray-bold">
         {etapa === "nip" ? "Reconhece esta NIP?" : "Reconhece o interlocutor?"}
       </p>
-      <div className="d-flex gap-2 mb-5">
+      <div className="d-flex gap-2 mb-5 btns-responsivos">
         <Button
           variant="outline"
           className="px-4"
