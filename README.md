@@ -18,7 +18,13 @@
 git clone https://github.com/MatheusPerillo/DesafioFront-EndStefaniniCassi.git
 ```
 
-### 2. Instale as dependências
+### 2. Entre na pasta do projeto
+
+```bash
+cd desafio-frontend-stefanini/ 
+```
+
+### 3. Instale as dependências
 
 ```bash
 npm install
