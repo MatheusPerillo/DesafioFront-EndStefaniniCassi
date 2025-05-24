@@ -8,17 +8,17 @@ export default function Footer() {
       <div className="lateral-80">
         <div className="d-flex justify-content-between align-items-center">
           <img src={logo} alt="CASSI" height="52" />
-          <div className="d-flex gap-3">
-            <BsFacebook size={18} />
-            <BsLinkedin size={18} />
-            <BsInstagram size={18} />
+          <div className="d-flex icons">
+            <BsFacebook />
+            <BsLinkedin />
+            <BsInstagram />
           </div>
         </div>
 
         <hr style={{ border: "1px solid #FCFC1B", width: "100%" }} />
 
         <Row className="d-flex justify-content-between mt-4">
-          <Col >
+          <Col>
             <h5>
               <a href="#" className="text-white text-decoration-none">
                 <strong>Home</strong>
@@ -26,7 +26,7 @@ export default function Footer() {
             </h5>
           </Col>
 
-          <Col >
+          <Col>
             <h5>
               <a href="#" className="text-white">
                 <strong>Conheça a CASSI</strong>
@@ -44,7 +44,7 @@ export default function Footer() {
             </ul>
           </Col>
 
-          <Col >
+          <Col>
             <h5>
               <a href="#" className="text-white ">
                 <strong>Nossos Planos</strong>
@@ -62,7 +62,7 @@ export default function Footer() {
             </ul>
           </Col>
 
-          <Col >
+          <Col>
             <h5>
               <a href="#" className="text-white ">
                 <strong>Já tenho um plano CASSI</strong>
@@ -78,7 +78,7 @@ export default function Footer() {
             </ul>
           </Col>
 
-          <Col >
+          <Col>
             <h5>
               <a href="#" className="text-white ">
                 <strong>CliniCASSI</strong>

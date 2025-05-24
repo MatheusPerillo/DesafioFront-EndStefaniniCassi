@@ -44,16 +44,12 @@ export default function ModalConfirmacaoContato({
           <div className="d-flex justify-content-center gap-3 mt-2">
             <Button
               variant="outline"
-              className="px-4"
+              className="btn-outline-azul px-4"
               onClick={onClose}
-              style={{ backgroundColor: "white", borderColor: "#003057", color: "#003057" }}
             >
               Voltar
             </Button>
-            <Button
-              style={{ backgroundColor: "#003057", borderColor: "#003057" }}
-              onClick={onConfirmar}
-            >
+            <Button className="btn-azul" onClick={onConfirmar}>
               Confirmar dados
             </Button>
           </div>

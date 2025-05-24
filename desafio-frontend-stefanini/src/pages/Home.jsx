@@ -8,7 +8,7 @@ export default function Home() {
     <div className="mt-5 lateral-80 bg-f9">
       <Row className="gy-5">
         <Col md={8}>
-          <h4 className="fw-bold" style={{ color: "#003057" }}>
+          <h4 className="fw-bold text-blue" >
             Olá, &lt;nome&gt;
           </h4>
           <p style={{ fontSize: 22 }}>

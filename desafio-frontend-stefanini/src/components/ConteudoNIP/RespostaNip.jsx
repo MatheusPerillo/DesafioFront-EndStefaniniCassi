@@ -92,17 +92,15 @@ export default function RespostaNip() {
       <div className="d-flex gap-2 mb-5 btns-responsivos">
         <Button
           variant="outline"
-          className="px-4"
+          className="btn-outline-azul px-4"
           onClick={() => handleResposta("naoReconhecida")}
-          style={{ backgroundColor: "white", borderColor: "#003057", color: "#003057" }}
         >
           {etapa === "nip" ? "Não reconheço" : "Não"}
         </Button>
         <Button
           variant="primary"
-          className="px-4"
+          className="btn-azul px-4"
           onClick={() => handleResposta("reconhecida")}
-          style={{ backgroundColor: "#003057", borderColor: "#003057" }}
         >
           {etapa === "nip" ? "Sim, foi aberto por mim" : "Sim"}
         </Button>

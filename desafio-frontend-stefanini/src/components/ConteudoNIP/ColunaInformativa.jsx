@@ -8,9 +8,9 @@ export default function ColunaInformativa() {
       className="d-flex justify-content-md-end justify-content-center mb-5"
     >
       <div className="bloco-informativo" style={{ width: 445 }}>
-        <h4 className="fw-bold text-blue texto-informativo">
+        <h5 className="fw-bold text-blue texto-informativo">
           Por que é importante que você responda esse questionário?
-        </h4>
+        </h5>
         <img
           src={cardImage}
           alt="Atendente"
@@ -19,7 +19,7 @@ export default function ColunaInformativa() {
         />
         <p
           className="mb-0 texto-informativo"
-          style={{ opacity: 0.9, fontSize: 17, textAlign: "left" }}
+          style={{ opacity: 0.9, fontSize: 16, textAlign: "left" }}
         >
           Na CASSI, buscamos aprimorar continuamente nossos serviços e métodos
           de atendimento. Nosso objetivo é acelerar o processo de análise das

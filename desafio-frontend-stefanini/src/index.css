@@ -1,4 +1,6 @@
-html, body, #root {
+html,
+body,
+#root {
   height: 100%;
   margin: 0;
   padding: 0;
@@ -7,7 +9,7 @@ html, body, #root {
 #root {
   display: flex;
   flex-direction: column;
-  min-height: 100vh; 
+  min-height: 100vh;
 }
 
 :root {
@@ -29,9 +31,46 @@ html, body, #root {
   flex: 1;
 }
 
-p{
+p {
   font-size: 22px;
 }
+
+li {
+  margin-bottom: 7px;
+  cursor: pointer;
+}
+
+img {
+  cursor: pointer;
+}
+
+button {
+  transition: all 0.25s ease-in-out;
+}
+
+.btn-azul {
+  background-color: #003057;
+  border-color: #003057;
+  color: white;
+}
+
+.btn-azul:hover {
+  background-color: #FCFC1B;
+  border-color: #FCFC1B;
+  color: #002D4B;
+}
+
+.btn-outline-azul {
+  background-color: white;
+  border-color: #003057;
+  color: #003057;
+}
+
+.btn-outline-azul:hover {
+  background-color: #002D4B;
+  color: white;
+}
+
 
 .lateral-80 {
   padding-left: 80px;
@@ -42,23 +81,36 @@ p{
   background-color: #f9f9f9;
 }
 
-.bg-footer {
-  background-color: #002D4B;
-}
 
 .text-blue {
   color: #002D4B;
 }
 
-.text-gray-bold{
+.text-gray-bold {
   color: #2D2D2D;
   font-weight: 700;
 }
 
-.text-gray-light{
+.text-gray-light {
   color: #2D2D2D;
   font-weight: 400;
 }
+
+.bg-footer {
+  background-color: #002D4B;
+}
+
+.icons {
+  font-size: 24px;
+  cursor: pointer;
+  margin-left: 24px;
+  gap: 24px;
+}
+
+.cursor-pointer {
+  cursor: pointer !important;
+}
+
 
 @media (max-width: 992px) {
   .lateral-80 {
@@ -80,7 +132,7 @@ p{
   }
 
   .texto-informativo h5 {
-    font-size: 20px;
+    font-size: 24px;
   }
 
   .imagem-informativa {
@@ -95,7 +147,7 @@ p{
 
 @media (max-width: 767px) {
   .btns-responsivos {
-    margin-bottom: 0rem !important; /* reduz de mb-5 (3rem) para mb-3 (1rem) */
+    margin-bottom: 0rem !important;
+    /* reduz de mb-5 (3rem) para mb-3 (1rem) */
   }
 }
-
