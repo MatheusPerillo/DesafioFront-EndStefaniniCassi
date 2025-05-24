@@ -1,4 +1,3 @@
-// src/components/MobileMenu.jsx
 import {
   Offcanvas,
   Nav,

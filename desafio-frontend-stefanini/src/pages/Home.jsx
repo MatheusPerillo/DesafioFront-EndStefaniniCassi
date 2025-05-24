@@ -1,4 +1,3 @@
-// src/pages/Home.jsx
 import { Row, Col } from "react-bootstrap";
 import CardNotificacao from "../components/ConteudoNIP/CardNotificacao";
 import ColunaInformativa from "../components/ConteudoNIP/ColunaInformativa";

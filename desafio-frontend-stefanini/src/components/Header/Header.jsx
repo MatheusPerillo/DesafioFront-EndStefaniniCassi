@@ -1,4 +1,3 @@
-// src/components/Header.jsx
 import {
   Navbar,
   Container,
@@ -30,12 +29,10 @@ export default function Header() {
 
   return (
     <header className="border-bottom">
-      {/* Linha superior */}
       <div className="py-3 bg-white border-bottom lateral-80">
         <Container fluid className="d-flex align-items-center justify-content-between p-0">
           <img src={logo} alt="CASSI" height="52" />
 
-          {/* Campo de busca */}
           <div className="d-none d-md-flex flex-grow-1 mx-3" style={{ maxWidth: 222 }}>
             <InputGroup className="w-100">
               <InputGroup.Text>
@@ -45,7 +42,6 @@ export default function Header() {
             </InputGroup>
           </div>
 
-          {/* Redes sociais */}
           <div className="d-none d-md-flex align-items-center gap-2">
             <small className="me-1 hide-on-1250">Siga a CASSI nas redes sociais:</small>
             <div className="d-flex align-items-center" style={{ gap: 24, marginLeft: 24 }}>
@@ -60,7 +56,6 @@ export default function Header() {
             <span>Lorem Ipsum</span>
           </div>
 
-          {/* Login + menu toggle */}
           <div className="d-flex align-items-center gap-2">
             <Button
               variant="primary"
@@ -76,7 +71,6 @@ export default function Header() {
         </Container>
       </div>
 
-      {/* Menu para desktop */}
       <Navbar bg="white" expand="lg" className="border-top d-none d-lg-flex">
         <Container className="justify-content-center">
           <Nav className="gap-3">
@@ -109,7 +103,6 @@ export default function Header() {
         </Container>
       </Navbar>
 
-      {/* Menu Offcanvas extraído como componente */}
       <MenuToggle show={show} handleClose={handleClose} />
     </header>
   );

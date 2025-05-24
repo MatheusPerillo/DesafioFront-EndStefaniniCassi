@@ -1,4 +1,3 @@
-// src/components/Footer.jsx
 import { Row, Col } from "react-bootstrap";
 import logo from "../../assets/web-white-logo-cassi.png";
 import { BsFacebook, BsLinkedin, BsInstagram } from "react-icons/bs";
@@ -7,7 +6,6 @@ export default function Footer() {
   return (
     <footer className="bg-footer text-white py-5">
       <div className="lateral-80">
-        {/* Linha superior com logo e redes sociais */}
         <div className="d-flex justify-content-between align-items-center">
           <img src={logo} alt="CASSI" height="52" />
           <div className="d-flex gap-3">
@@ -17,10 +15,8 @@ export default function Footer() {
           </div>
         </div>
 
-        {/* Linha amarela separadora */}
         <hr style={{ border: "1px solid #FCFC1B", width: "100%" }} />
 
-        {/* Informações do rodapé */}
         <Row className="d-flex justify-content-between mt-4">
           <Col >
             <h5>

@@ -8,15 +8,23 @@
 
 ---
 
+### O projeto é totalmente responsivo e como não foi prototipado a versão mobile, tomei a liberdade para imaginar e criar a versão mobile do projeto.
+
 ## Como rodar o projeto
 
 ### 1. Clone o repositório
 
 ```bash
-git clone https://github.com/seu-usuario/meu-projeto-cassi.git
+git clone https://github.com/MatheusPerillo/DesafioFront-EndStefaniniCassi.git
 ```
 
-### 2. Instale as dependências
+### 2. Entre na pasta do projeto
+
+```bash
+cd desafio-frontend-stefanini/ 
+```
+
+### 3. Instale as dependências
 
 ```bash
 npm install
